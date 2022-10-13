@@ -14,7 +14,7 @@ matric: # Words ending with ':' are **labels**
         .word 30  # This directive reserves enough space for a word in memory
                   #  and initializes it with the specific value.
 matricplus1:
-        .word     # Reserves the space but does not initialize it
+        .word 0   
 
 var1:
         .word 1
